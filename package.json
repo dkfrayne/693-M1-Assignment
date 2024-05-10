@@ -1,0 +1,20 @@
+{
+  "name": "693-m1-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src --presets @babel/react src --out-dir public",
+    "watch": "babel src --presets @babel/react src --out-dir public --watch --verbose",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-react": "^7.24.1"
+  }
+}
